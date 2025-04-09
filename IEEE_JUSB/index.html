@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IEEE | Jadavpur University</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <canvas id="stars-bg"></canvas>
+  <!--Navbar section-->
+  <nav class="sci-navbar">
+    <img src="images/nav.png" alt="">
+    <div class="nav-logo">IEEE<span>·JUSB</span></div>
+    <ul class="nav-links">
+      <li><a href="#home" onclick="playHoverSound()">Home</a></li>
+      <li><a href="#about" onclick="playHoverSound()">About</a></li>
+      <li><a href="#chapters" onclick="playHoverSound()">Chapters</a></li>
+      <li><a href="events.html" onclick="playHoverSound()">Events</a></li>
+      <li><a href="#sponsor" onclick="playHoverSound()">Sponsor</a></li>
+      <li><a href="team.html" onclick="playHoverSound()">Team</a></li>
+      <li><a href="#contact" onclick="playHoverSound()">Contact</a></li>
+
+    </ul>
+  </nav>
+
+  <!-- Hero Terminal -->
+  <div class="ju-logo-wrapper" data-aos="fade-in">
+    <img src="images/julogo.png" alt="Jadavpur University Logo" class="ju-logo" />
+  </div>
+  
+  <section id="home" class="hero-terminal" data-aos="zoom-in">
+    <div class="overlay-glow"></div>
+    <div class="content">
+      <h1 class="terminal-text">Jadavpur University</h1>
+      <h1 class="blue-glow-text flicker">Student Branch</h1>
+      <h1 class="terminal-text">IEEE JUSB</h1>
+      <p id="initiate">Jadavpur's Gateway to Global Tech Frontiers .....</p>
+      <a href="#" class="btn-neo" onmouseenter="playHoverSound()">Engage With Us</a>
+    </div>
+  </section>
+
+  <!-- Tech Panels -->
+  <section class="panels" data-aos="fade-up">
+    <!-- About -->
+    <div id="about" class="about-card" data-aos="flip-left">
+      <h2 class="headings">⚙️ ABOUT US : INTRODUCING THE BRANCH</h2>
+      <p class="paras">As one of the oldest universities of the country, Jadavpur University, and its students have a
+        certain duty - the duty to give back to society across all disciplines and inculcate the habit of thinking in
+        every individual who comes along. The IEEE Jadavpur University Student Branch is one little endeavor in that
+        process. Founded in 2010, we belong to the Kolkata section of Region 10 of the organization. One of the most
+        active student branches in our section, we are dedicated to furthering technical and entrepreneurial innovations
+        through hands-on interactive sessions. With large scale events and intimate, basic workshops, we try to keep
+        something happening all year round - so that the fire of knowledge, learning and innovation never burns out. In
+        this process of sharing our love for technology, we have slowly grown, met new people, evolved as a group and
+        built around us, a community of like-minded individuals who are driven by a passion for learning and giving back
+        to society...</p>
+      <a href="https://www.ieee.org/" class="btn-hyper-blue" target="_blank">More about IEEE</a>
+    </div>
+    <div id="chapters" class="about-card" data-aos="flip-left" data-aos-delay="200">
+      <h2 style="padding-left: 5vw;" class="headings">🛰️ STUDENT BRANCH CHAPTERS : NEW VENTURES</h2>
+      <section id="media-gallery" class="gallery-section" data-aos="fade-up">
+        <div class="gallery-grid">
+          <img src="images/sbc1.png" alt="Snapshot 1" />
+          <img src="images/sbc2.png" alt="Snapshot 2" />
+          <img src="images/sbc3.png" alt="Snapshot 3" />
+          <img src="images/sbc4.png" alt="Snapshot 4" />
+          <img src="images/sbc5.png" alt="Snapshot 5" />
+        </div>
+      </section>
+
+    </div>
+    <div id="sponsor" class="about-card" data-aos="flip-left" data-aos-delay="400">
+      <h2 class="headings">🧬 POST SPONSORS : FINANCIAL ALLIES</h2>
+      <section style=" padding: 100px 40px;
+      text-align: center;
+    
+      background-image: url('images/sponbg.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+      z-index: 1;" id="media-gallery" class="gallery-section" data-aos="fade-up">
+        <div class="gallery-grid">
+          <img src="images/sponsors.png" alt="Snapshot 1" />
+        </div>
+      </section>
+    </div>
+    <div id="contact" class="about-card" data-aos="flip-left" data-aos-delay="400">
+      <h2 style="padding-left: 17.2vw;" class="headings"> CONTACT US : FUTURE REFERENCES</h2>
+
+      <div class="map-wrapper">
+        <!-- Google Map Embed -->
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.141271960789!2d88.36883737507544!3d22.49888217954429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0271237f28abe9%3A0xd047bab0c8bfb11c!2sJadavpur%20University!5e0!3m2!1sen!2sin!4v1743958765820!5m2!1sen!2sin"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+
+        <!-- Address Content -->
+        <div class="address-box">
+          <h3>JADAVPUR UNIVERSITY</h3>
+          <p>Information Office,<br>
+            Our Address : 188, Raja S.C. Mallick Rd<br>
+            India - 700032</p>
+          <p><strong>Phone : </strong> +9133-24146666</p>
+          <p><strong>Email Us : </strong> jaduniv.ieee@gmail.com</p>
+        </div>
+      </div>
+      <section id="contact-form" class="form-section" data-aos="fade-up">
+        <h2 class="blue-glow-text flicker">Transmit Your Message</h2>
+        <form class="sci-form">
+          <div class="form-row">
+            <input type="text" placeholder="Name" required />
+            <input type="email" placeholder="Email" required />
+            <input type="text" placeholder="Subject" required />
+          </div>
+          <textarea placeholder="Your message..." required></textarea>
+          <button type="submit" class="btn-sci" onclick="playHoverSound()">Submit Transmission</button>
+        </form>
+      </section>
+
+  </section>
+
+  <footer class="sci-footer" data-aos="flip-left">
+    <div class="footer-content">
+      <!-- Brief About -->
+      <div class="footer-column">
+        <h3>IEEE JUSB</h3>
+        <p>
+          The Jadavpur University IEEE student branch, founded in 2010, belongs to the Kolkata section of Region 10 of
+          the organization. We are a group of enthusiastic students who are promoting innovative ideas both within and
+          outside the campus.
+        </p>
+      </div>
+
+      <!-- Follow Us -->
+      <div class="footer-column">
+        <h3>Follow Us</h3>
+        <ul class="footer-links">
+          <ul class="social-icons">
+            <div class="footer-socials">
+          
+              <a style="font-size: 1.78rem;margin-right: 15px;" href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+
+              <a style="font-size: 1.78rem;margin-right: 15px;" href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+
+              <a style="font-size: 1.78rem;margin-right: 15px;" href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+
+              <a style="font-size: 1.78rem;margin-right: 15px;" href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+        
+            </div>
+            
+          </ul>
+
+        </ul>
+      </div>
+
+      <!-- About -->
+      <div class="footer-column">
+        <h3>Useful Links</h3>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#chapters">Chapters</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="#sponsor">Sponsors</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="footer-column">
+        <h3>Contact Us</h3>
+        <p>Email: jaduniv.ieee@gmail.com</p>
+        <p>Phone: +91 98361 05125</p>
+        <p>Campus: Jadavpur University 188, Raja S.C. Mallick Rd, Kolkata-700032 India</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 IEEE-JUSB. All rights reserved.</p>
+      <p>Made with <span style="color: red;">❤️</span> by IEEE JUSB</p>
+
+    </div>
+  </footer>
+
+
+  <audio id="hoverSound" src="sounds/hover.mp3" preload="auto"></audio>
+  <script src="scripts.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>AOS.init({ duration: 1200 });</script>
+</body>
+
+</html>
